@@ -25,7 +25,6 @@ void order ()
     printf ("How many items you want to order? ");
     scanf ("%d", &n);
 
-    getchar ();
     while (n--){
         printf ("\nEnter chosen item code\n");
         scanf ("%d", &in);
