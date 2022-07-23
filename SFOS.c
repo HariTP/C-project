@@ -29,17 +29,14 @@ void order ()
     while (n--){
         printf ("\nEnter chosen item code\n");
         scanf ("%d", &in);
-        getchar();
         switch(in){
     case 11 : {
         printf ("Enter the size of Burger: 1. Small  2. Large\n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
@@ -52,11 +49,9 @@ void order ()
         printf ("Enter the size of Pizza: 1. Small  2. Medium  3. Large\n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
@@ -72,11 +67,9 @@ void order ()
         printf ("Enter the amount of Gulab Jamun: 1. 1 pcs  2. 4 pcs  3. 10 pcs\n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
@@ -92,11 +85,9 @@ void order ()
         printf ("Enter the size of Paneer Tikka: 1. Quarter  2. Half  3. Full\n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
@@ -112,11 +103,9 @@ void order ()
         printf ("Enter the size of Hakka Noodles: 1. Half  2. Full\n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
@@ -130,11 +119,9 @@ void order ()
         printf ("Enter the size of White Sauce Pasta: 1. Half  2. Full\n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
@@ -149,7 +136,6 @@ void order ()
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
         p[order_count].cost += (180*qu);
@@ -160,7 +146,6 @@ void order ()
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
         p[order_count].cost += (65*qu);
@@ -171,7 +156,6 @@ void order ()
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
         p[order_count].cost += (70*qu);
@@ -181,11 +165,9 @@ void order ()
         printf ("Enter the size of Coke: 1. 250ml  2. 500ml \n");
         int i;
         scanf ("%d", &i);
-        getchar();
 
         printf ("Please enter the quantity: ");
         scanf ("%d", &qu);
-        getchar();
 
         p[order_count].number_of_food +=qu;
 
